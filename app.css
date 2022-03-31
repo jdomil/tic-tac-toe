@@ -1,0 +1,17 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 180px [col-start]);
+  grid-template-rows: repeat(3, 150px [row-start]);
+  margin: auto;
+  width: 60%;
+  height: 60vh;
+  padding: 2.5rem;
+  font-size: xx-large;
+}
+
+.cell {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
